@@ -1,0 +1,27 @@
+{
+	"AWS/EC2" : 
+		{
+			"NetworkIn":["InstanceId","ImageId","InstanceType","AutoScalingGroupName"],
+			"DiskWriteOps":["InstanceId","ImageId","InstanceType","AutoScalingGroupName"],
+			"CPUUtilization":["InstanceId","ImageId","InstanceType","AutoScalingGroupName"],
+			"DiskReadOps":["InstanceId","ImageId","InstanceType","AutoScalingGroupName"],
+			"NetworkOut":["InstanceId","ImageId","InstanceType","AutoScalingGroupName"],
+			"DiskWriteBytes":["InstanceId","ImageId","InstanceType","AutoScalingGroupName"],
+			"DiskReadBytes":["InstanceId","ImageId","InstanceType","AutoScalingGroupName"]
+		}, 
+	"AWS/ELB" :
+		{
+			"NetworkIn":["LoadBalancerName","AvailabilityZone"],
+			"DiskWriteOps":["LoadBalancerName","AvailabilityZone"],
+			"CPUUtilization":["LoadBalancerName","AvailabilityZone"],
+			"DiskReadOps":["LoadBalancerName","AvailabilityZone"],
+			"RequestCount":["LoadBalancerName","AvailabilityZone"],
+			"DiskWriteBytes":["LoadBalancerName","AvailabilityZone"],
+			"DiskReadBytes":["LoadBalancerName","AvailabilityZone"]
+		},
+	"ScanPower" :
+		{
+			"ItemsProcessed":["WorkerType"]
+		} 
+}
+
