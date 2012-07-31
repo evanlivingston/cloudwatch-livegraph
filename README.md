@@ -1,3 +1,4 @@
+## cloudwatch-livegraph 
 An API for generating json, and UI for generating graphs from AWS cloudwatch metric data. Graphing done with [flot](https://github.com/flot/flot).  Enhancements welcomed!
 
 ![simple graph showing requests to an ELB.](http://i.imgur.com/WFV3Q.png "simple graph showing requests to an ELB.")
@@ -11,6 +12,7 @@ localhost/cloudwatch-livegraph/json.php?ns=AWS/EC2&metric=RequestCount&start=-8%
 </pre>
 
 Go generate graphs:
+<pre>
 loclhost/cloudwatch-livegraph/graph.php
 </pre>
 
