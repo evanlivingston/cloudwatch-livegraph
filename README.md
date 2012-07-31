@@ -13,11 +13,11 @@ localhost/cloudwatch-livegraph/json.php?ns=AWS/EC2&metric=RequestCount&start=-8%
 
 Go generate graphs:
 <pre>
-loclhost/cloudwatch-livegraph/graph.php
+localhost/cloudwatch-livegraph/graph.php
 </pre>
 
 ## Requirements
-You must have the the PHP SDK of Amamazon AWS installed. [aws-sdk-for-php](https://github.com/amazonwebservices/aws-sdk-for-php.git)
+PHP SDK for Amamazon AWS must be properly installed and configured with your AWS credentials. [aws-sdk-for-php](https://github.com/amazonwebservices/aws-sdk-for-php.git)
 
 ## Notes
 Combinations of the metric parameters are tricky. Querying AWS for them takes an enormous amount of time. Currently the data is stored in metrics.json.
