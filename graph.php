@@ -1,5 +1,5 @@
 <?php
-// This is the frontend of CloudWatcher API. Metric info is taken as parameters and passed to fetch_data.php
+// This is the front-end. Metric info is taken as parameters and passed to fetch_data.php
 
 // This should be something like AWS/RDS for RDS, AWS/ELB for ELB, etc.
 // You can find more info in the CloudWatch section of the AWS Console

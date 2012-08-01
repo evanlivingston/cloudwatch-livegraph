@@ -19,9 +19,9 @@
 			"DiskWriteBytes":["LoadBalancerName","AvailabilityZone"],
 			"DiskReadBytes":["LoadBalancerName","AvailabilityZone"]
 		},
-	"ScanPower" :
+	"ElastiCache" :
 		{
-			"ItemsProcessed":["WorkerType"]
-		} 
+			"GetHits":["CacheClusterId"]
+		}
 }
 
